@@ -6,9 +6,9 @@
 - Make sure you have `python` and `MySQL` installed in your system.
 - Make sure you install `python-tabulate` library in python. You can use the following command to install. To know more visit [here](https://pypi.org/project/tabulate/).
 
-    - ```python
-         pip install tabulate
-      ```
+     - ```python
+          pip install tabulate
+       ```
 
 ## Customize
 
@@ -50,7 +50,12 @@ Enter the username and password of your MySQL in the respective fields.
 
 ## Running the Appliation
 
+### initializer.py
+
+You will find a file named  `initializer.py`.  After making the above changes run this file.  A database named  `train_booking_application`  will be created in your MySQL.
+
+
 ### login.py
 
-You will find a file named `login.py`. After making the above changes run this file. Happy Coding 👍.
+You will find a file named  `login.py`.  After executing  `initializer.py`  run this file.  Happy Coding 👍.
 
