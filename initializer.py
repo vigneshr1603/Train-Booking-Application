@@ -17,7 +17,7 @@ except:
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="vikki2001",
+    password="password",
     database="train_booking_application"
 
 )
